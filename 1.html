@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Golden Cafe</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<style>
+
+/* CSS در پیام بعدی قرار می‌گیرد */
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<nav>
+
+<div class="logo">
+☕ Golden Cafe
+</div>
+
+
+<ul>
+
+<li>
+<a href="#home"
+data-en="Home"
+data-fa="خانه">
+Home
+</a>
+</li>
+
+
+<li>
+<a href="#about"
+data-en="About"
+data-fa="درباره ما">
+About
+</a>
+</li>
+
+
+<li>
+<a href="#menu"
+data-en="Menu"
+data-fa="منو">
+Menu
+</a>
+</li>
+
+
+<li>
+<a href="#gallery"
+data-en="Gallery"
+data-fa="گالری">
+Gallery
+</a>
+</li>
+
+
+<li>
+<a href="#contact"
+data-en="Contact"
+data-fa="تماس">
+Contact
+</a>
+</li>
+
+</ul>
+
+
+
+<button id="languageBtn" onclick="changeLanguage()">
+
+فارسی
+
+</button>
+
+
+</nav>
+
+</header>
+
+
+
+
+
+<section class="hero" id="home">
+
+
+<div>
+
+
+<h1
+data-en="A Perfect Coffee Experience"
+data-fa="تجربه‌ای عالی از قهوه">
+
+A Perfect Coffee Experience
+
+</h1>
+
+
+<p
+data-en="Specialty coffee and European atmosphere"
+data-fa="قهوه تخصصی و فضای آرام به سبک اروپایی">
+
+Specialty coffee and European atmosphere
+
+</p>
+
+
+<a class="btn"
+data-en="View Menu"
+data-fa="مشاهده منو"
+href="#menu">
+
+View Menu
+
+</a>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<section>
+
+
+<h2 class="title"
+data-en="Why Choose Us"
+data-fa="چرا ما را انتخاب کنید">
+
+Why Choose Us
+
+</h2>
+
+
+
+<div class="cards">
+
+
+
+<div class="card">
+
+☕
+
+<h3
+data-en="Fresh Coffee"
+data-fa="قهوه تازه">
+
+Fresh Coffee
+
+</h3>
+
+
+<p
+data-en="Premium coffee beans"
+data-fa="دانه‌های قهوه با کیفیت">
+
+Premium coffee beans
+
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+🌱
+
+<h3
+data-en="Organic"
+data-fa="ارگانیک">
+
+Organic
+
+</h3>
+
+
+<p
+data-en="Natural products"
+data-fa="محصولات طبیعی">
+
+Natural products
+
+</p>
+
+</div>
+
+
+
+
+
+
+<div class="card">
+
+💻
+
+<h3
+data-en="Free WiFi"
+data-fa="وای فای رایگان">
+
+Free WiFi
+
+</h3>
+
+
+<p
+data-en="Work comfortably"
+data-fa="محیط مناسب کار">
+
+Work comfortably
+
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+🍰
+
+<h3
+data-en="Desserts"
+data-fa="دسرها">
+
+Desserts
+
+</h3>
+
+
+<p
+data-en="Fresh cakes"
+data-fa="کیک‌های تازه">
+
+Fresh cakes
+
+</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<section class="about" id="about">
+
+
+<img src="./images/about.jpg">
+
+
+<div>
+
+
+<h2
+data-en="Our Story"
+data-fa="داستان ما">
+
+Our Story
+
+</h2>
+
+
+<p
+data-en="A modern cafe with passion for coffee and peaceful moments."
+data-fa="یک کافه مدرن با عشق به قهوه و لحظات آرام.">
+
+A modern cafe with passion for coffee and peaceful moments.
+
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<section class="menu" id="menu">
+
+
+<h2 class="title"
+data-en="Our Menu"
+data-fa="منوی ما">
+
+Our Menu
+
+</h2>
+
+
+
+<div class="menu-grid">
+
+
+<div class="menu-item">
+
+<img src="./images/Espresso.jpg">
+
+<div>
+
+<h3
+data-en="Espresso"
+data-fa="اسپرسو">
+
+Espresso
+
+</h3>
+
+
+<p>$3.5</p>
+
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="menu-item">
+
+<img src="images/Cappuccino.jpg">
+
+<div>
+
+<h3
+data-en="Cappuccino"
+data-fa="کاپوچینو">
+
+Cappuccino
+
+</h3>
+
+
+<p>$4</p>
+
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="menu-item">
+
+<img src="images/latte.jpg">
+
+<div>
+
+<h3
+data-en="Latte"
+data-fa="لاته">
+
+Latte
+
+</h3>
+
+
+<p>$4.5</p>
+
+
+</div>
+
+</div>
+
+
+
+</div>
+<div class="menu-item">
+
+<img src="images/cake.jpg">
+
+<div>
+
+<h3
+data-en="cake"
+data-fa="کیک">
+
+Cake
+
+</h3>
+
+
+<p>$2</p>
+
+
+</div>
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section id="gallery">
+
+
+<h2 class="title"
+data-en="Gallery"
+data-fa="گالری">
+
+Gallery
+
+</h2>
+
+
+
+<div class="gallery">
+
+
+<img src="images/gallery-1.jpg">
+
+<img src="images/gallery-2.jpg">
+
+<img src="images/gallery-3.jpg">
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<footer id="contact">
+
+
+<div>
+
+<h3>
+
+Golden Cafe
+
+</h3>
+
+
+<p
+data-en="Best coffee in town"
+data-fa="بهترین قهوه شهر">
+
+Best coffee in town
+
+</p>
+
+
+</div>
+
+
+
+<div>
+
+
+<h3
+data-en="Opening Hours"
+data-fa="ساعت کاری">
+
+Opening Hours
+
+</h3>
+
+
+<p>
+8 AM - 10 PM
+</p>
+
+
+</div>
+
+
+
+
+<div>
+
+
+<h3
+data-en="Contact"
+data-fa="تماس">
+
+Contact
+
+</h3>
+
+
+<p>
+
+Instagram<br>
+Phone
+
+</p>
+
+
+</div>
+
+
+
+</footer>
+
+
+
+
+
+<script>
+
+// JavaScript در بخش بعدی
+
+</script>
+
+
+</body>
+
+</html>
